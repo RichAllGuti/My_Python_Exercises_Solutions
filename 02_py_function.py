@@ -1,5 +1,5 @@
 """
-A n-insteresting polygon is just a square with a side of length.
+A n-interesting polygon is just a square with a side of length.
 Find the area of a polygon for a given 'n'.
 """
 #
