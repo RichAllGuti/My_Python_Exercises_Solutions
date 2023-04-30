@@ -6,11 +6,11 @@
 
 <br>
 
-### This repository is about share some solving python exercises that I made as part of my python developer training.
+### This repository is about share some solved python exercises that I made as part of my continues improvement python skills.
 
 <br>
 
-### All the exercises is about to create a function to solve a given description.
+### All the exercises is about to create a function to solve a given requirement.
 
 <br>
 
@@ -18,7 +18,7 @@
 
 <br>
 
->**I hope this exercises can help any one.**
+>**I hope this exercises can help some one.**
 
 <br>
 
