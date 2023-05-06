@@ -1,24 +1,21 @@
 """
 Given an integer number determine if all digits of it are even. 
 """
-def is_even_digit(integer_input):
+def are_all_digits_even(n: int) -> bool:
+    """
+    Determines whether all digits of a given integer are even.
 
-    # Just convert the integer input, to access individual digits
-    digits_string = str(integer_input)
+    Args:
+    - n (int): The integer to check.
 
-    # Just iterate through each character in the string
-    for digits in digits_string:
+    Returns:
+    - bool: True if all digits of the integer are even, False otherwise.
+    """
+    digits = [int(digit) for digit in str(n)]
+    return all(digit % 2 == 0 for digit in digits)
 
-        #Check if the digit is old
-        if int(digits) % 2 == 1:
-            
-            # if the digit is odd we must return False "not all digits are even"
-            return False
-    
-    #
-    return True
 
 input_i = 84262688
 input_i = 84262687
 
-print(is_even_digit(input_i))
+print(are_all_digits_even(input_i))
